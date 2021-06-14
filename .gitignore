@@ -1,0 +1,13 @@
+#не нужная нам папка
+node_modules/
+backend/proj/db.sqlite3
+backend/proj/media
+backend/proj/static
+env/
+#не нужный нам тип файлов
+*.pyc
+__pycache__
+.pytest_cache
+.vscode
+.idea
+package-lock.json
