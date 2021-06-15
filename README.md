@@ -11,6 +11,11 @@ cd StoreAng_Py
 ##  superuser
    login: admin
    email:
-   passvord: 12345
+   passvord: 
+   
 
+##  Для деплоя проекта выполнить
+cd backend\env\scripts 
+.\Activate.ps1
+python manage.py migrate
 
